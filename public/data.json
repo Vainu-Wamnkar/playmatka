@@ -1,0 +1,122 @@
+[
+  {
+    "siteName": "JALNA MORNING",
+    "currentStatus": "Market is running",
+    "openTime": "9:30 AM",
+    "closeTime": "1:00 PM",
+    "currentTime": "12:30:07",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "MILAN DAY",
+    "currentStatus": "Closed for today",
+    "openTime": "9:30 AM",
+    "closeTime": "1:00 PM",
+    "currentTime": "12:30:07",
+    "marketNumber": "154-61_385"
+  },
+  {
+    "siteName": "KALYAN MAIN",
+    "currentStatus": "Market is running",
+    "openTime": "11:00 AM",
+    "closeTime": "2:00 PM",
+    "currentTime": "11:45:22",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "RAJDHANI NIGHT",
+    "currentStatus": "Yet to open",
+    "openTime": "9:00 PM",
+    "closeTime": "11:55 PM",
+    "currentTime": "7:15:00",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "SRIDEVI DAY",
+    "currentStatus": "Closed for today",
+    "openTime": "10:00 AM",
+    "closeTime": "1:30 PM",
+    "currentTime": "12:10:11",
+    "marketNumber": "154-72_491"
+  },
+  {
+    "siteName": "MUMBAI CENTRAL",
+    "currentStatus": "Market is running",
+    "openTime": "12:00 PM",
+    "closeTime": "3:00 PM",
+    "currentTime": "2:00:00",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "KALYAN NIGHT",
+    "currentStatus": "Yet to open",
+    "openTime": "9:30 PM",
+    "closeTime": "12:00 AM",
+    "currentTime": "8:15:30",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "MADHUR MORNING",
+    "currentStatus": "Market is running",
+    "openTime": "10:30 AM",
+    "closeTime": "12:30 PM",
+    "currentTime": "11:00:00",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "TIME BAZAR",
+    "currentStatus": "Closed for today",
+    "openTime": "1:00 PM",
+    "closeTime": "4:00 PM",
+    "currentTime": "3:45:45",
+    "marketNumber": "154-84_257"
+  },
+  {
+    "siteName": "MAIN BAZAR",
+    "currentStatus": "Market is running",
+    "openTime": "3:00 PM",
+    "closeTime": "5:00 PM",
+    "currentTime": "4:10:15",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "MUMBAI NIGHT",
+    "currentStatus": "Yet to open",
+    "openTime": "9:00 PM",
+    "closeTime": "11:45 PM",
+    "currentTime": "7:45:00",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "SRIDEVI NIGHT",
+    "currentStatus": "Market is running",
+    "openTime": "6:00 PM",
+    "closeTime": "8:30 PM",
+    "currentTime": "7:15:10",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "RAJDHANI DAY",
+    "currentStatus": "Closed for today",
+    "openTime": "10:00 AM",
+    "closeTime": "12:00 PM",
+    "currentTime": "12:10:00",
+    "marketNumber": "154-53_978"
+  },
+  {
+    "siteName": "MILAN NIGHT",
+    "currentStatus": "Yet to open",
+    "openTime": "8:00 PM",
+    "closeTime": "10:45 PM",
+    "currentTime": "7:59:59",
+    "marketNumber": "***_**_***"
+  },
+  {
+    "siteName": "JANTA BAZAR",
+    "currentStatus": "Market is running",
+    "openTime": "1:00 PM",
+    "closeTime": "3:30 PM",
+    "currentTime": "2:25:45",
+    "marketNumber": "***_**_***"
+  }
+]

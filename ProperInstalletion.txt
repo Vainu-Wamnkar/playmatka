@@ -1,0 +1,11 @@
+=> Use with help of CDN
+=> With the help of framwork
+
+=> We are using postCSS
+=>check node are present are not = npx init -y
+=> go to Tailwind official documentation =>
+=>go to the working directory where you want to intall tailwind
+=>click on the Installation and click postCSS
+=>and copy and paste in the terminal sequence wise
+=> second thing cmd me last me -p lagana hai
+=>if you are not understansd goto video l:02:00 to 1:08:00 watch
