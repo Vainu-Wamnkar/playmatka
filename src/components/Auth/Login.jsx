@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
@@ -59,7 +60,7 @@ const Login = () => {
         parsedData.mobileNumber === formData.mobileNumber &&
         parsedData.password === formData.password
       ) {
-        alert('Login Successful!');
+        toast.success("Login successfull")
         setLoginError('');
         // redirect or navigate here
         navigate("/home")

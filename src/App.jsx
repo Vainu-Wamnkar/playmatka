@@ -8,6 +8,9 @@ import WithdrawMoney from './pages/WithdrawalMoney';
 import GameRate from './pages/GameRate';
 import Ragister from './components/Auth/Ragister';
 import Login from './components/Auth/Login';
+import { Toaster } from 'react-hot-toast'; 
+import PlayGame from './components/AllSite/PlayGame';
+
 
 const AppContent = () => {
   const location = useLocation();
@@ -27,16 +30,21 @@ const AppContent = () => {
         <Route path="/rate" element={<GameRate />} />
         <Route path="/ragister" element={<Ragister />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/play-game" element={<PlayGame/>}/>
       </Routes>
+
     </>
   );
 };
 
 function App() {
   return (
-    <Router>
-      <AppContent />
-    </Router>
+    <>    
+      <Router>
+        <AppContent />
+      </Router>
+      <Toaster position="top-center" />
+    </>
   );
 }
 

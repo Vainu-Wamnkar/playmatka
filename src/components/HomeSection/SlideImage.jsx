@@ -32,19 +32,21 @@ const ImageSlider = () => {
   }, [direction]);
 
   return (
-    <div className="w-full max-w-[800px] h-[200px] overflow-hidden mx-auto  shadow-md relative">
-      <div
-        className="flex transition-transform duration-700 ease-in-out"
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-      >
-        {images.map((img, index) => (
-          <img
-            key={index}
-            src={img}
-            alt={`Slide ${index + 1}`}
-            className="w-full flex-shrink-0 h-[200px] object-cover"
-          />
-        ))}
+    <div className="block md:hidden"> {/* 👈 visible only below 768px */}
+      <div className="w-full max-w-[800px] h-[200px] overflow-hidden mx-auto shadow-md relative">
+        <div
+          className="flex transition-transform duration-700 ease-in-out"
+          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        >
+          {images.map((img, index) => (
+            <img
+              key={index}
+              src={img}
+              alt={`Slide ${index + 1}`}
+              className="w-full flex-shrink-0 h-[200px] object-cover"
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { FaPlay } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom'; // 👈
 
 function Allmarket() {
   const [markets, setMarkets] = useState([]);
+  const navigate = useNavigate(); // 👈
 
   useEffect(() => {
     fetch('/data.json')
@@ -11,18 +13,22 @@ function Allmarket() {
       .catch(err => console.error('Failed to load data.json:', err));
   }, []);
 
+  const handlePlayClick = (market) => {
+    // Save market to localStorage or global state if needed
+    localStorage.setItem('selectedMarket', JSON.stringify(market));
+    navigate('/play-game'); // 👈 navigate to PlayGame route
+  };
+
   return (
     <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20 h-auto">
       {markets.map((market, index) => (
         <div key={index} className="bg-white shadow-md rounded-xl p-6 border border-gray-200">
-          {/* Market Name & Time */}
           <div className="mb-3">
             <h2 className="text-xl font-semibold text-orange-700">{market.siteName}</h2>
             <p className="text-sm text-gray-600">Current Time: {market.currentTime}</p>
             <p className="text-xl font-bold text-blue-600 mt-1">{market.marketNumber}</p>
           </div>
 
-          {/* Timings */}
           <div className="flex justify-between text-sm text-gray-800 mb-3">
             <div>
               <p className="font-medium">Open</p>
@@ -34,7 +40,6 @@ function Allmarket() {
             </div>
           </div>
 
-          {/* Status and Button */}
           <div className="flex items-center justify-between">
             <p
               className={`font-medium ${
@@ -49,6 +54,7 @@ function Allmarket() {
             </p>
 
             <button
+              onClick={() => handlePlayClick(market)}
               className={`flex items-center gap-2 ${
                 market.currentStatus === 'Market is running'
                   ? 'bg-orange-600 hover:bg-orange-700'
